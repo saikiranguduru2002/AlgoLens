@@ -60,14 +60,12 @@ Users can:
 
 - Local running app: [http://localhost:3001](http://localhost:3001)
 - Backend API health: [http://localhost:4000/health](http://localhost:4000/health)
-- Public deployed link: `Not deployed yet`
+- Public app: [https://algolenslab.vercel.app/](https://algolenslab.vercel.app/)
 
-If you want a public live link for GitHub, deploy:
+Deployment setup used for this project:
 
-- frontend to [Vercel](https://vercel.com/)
-- backend to [Render](https://render.com/), [Railway](https://railway.app/), or a similar service
-
-After deployment, replace the `Not deployed yet` line above with your public URLs.
+- frontend hosted on [Vercel](https://vercel.com/)
+- backend hosted on [Render](https://render.com/)
 
 ## How To Use
 
@@ -266,7 +264,7 @@ To add a new algorithm later:
 
 - The frontend can run algorithms locally if the backend is unavailable.
 - The current local frontend is running on port `3001` in this environment.
-- For a public repository, add a deployed frontend/backend URL after hosting.
+- Production app: [https://algolenslab.vercel.app/](https://algolenslab.vercel.app/)
 
 ## How To Publish This To GitHub
 
