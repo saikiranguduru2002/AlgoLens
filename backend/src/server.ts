@@ -7,7 +7,7 @@ const PORT = Number(process.env.PORT) || 4000;
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
-  'https://algo-lens-psi.vercel.app'
+  'https://algo-lens-frontend.vercel.app/'
 ];
 
 app.use(
